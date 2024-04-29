@@ -123,34 +123,54 @@ main {
     padding-top: 50px;
 }
 
-main > .conteudo > img {
+.conteudo > img {
     margin: auto;
 }
 
 @media (max-width: 1000px) {
-    main > .conteudo {
+    .conteudo {
         flex-direction: column;
     }
 }
 
 @media (max-width: 1000px) {
-    main > .conteudo > img {
+    .conteudo > img {
         padding-top: 30px;
     }
 }
 
-main > .conteudo {
+.conteudo {
     display: flex;
     align-items: center;
     padding: 25px 30px;
 }
 
-main > .conteudo > p {
+.conteudo > p {
     max-width: 950px;
     margin: auto;
 }
 
 .preco {
+    display: flex;
+    justify-content: center;
+}
+
+.precoep {
+    display: flex;
+    justify-content: center;
+}
+
+.precoep > p {
+    background-color: var(--cor1);
+    font-weight: bold;
+    color: var(--cor4);
+    border-radius: 25px;
+    width: 220px;
+    padding: 10px;
+    text-align: center;
+}
+
+.preco > p {
     color: var(--cor1);
     font-weight: bold;
 }
