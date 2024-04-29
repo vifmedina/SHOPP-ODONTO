@@ -150,6 +150,11 @@ main > .conteudo > p {
     margin: auto;
 }
 
+.preco {
+    color: var(--cor1);
+    font-weight: bold;
+}
+
 footer {
     background-color: var(--cor0);
     padding: 30px 15px;
